@@ -5,40 +5,43 @@
 
 
 ## Abstract
-     ```diff
+     
 <table><tr><td> 
 
-! Enter Abstract here.
+# ENTER ABSTRACT HERE
+ 
 </td></tr></table>
-```
+
 
 -----
 
 This repository contains the data and code for:
-> Witesman, Eva M., Curtis Child, and Chris Silvia. (Forthcoming). “The Enduring Role of Sector: Citizen Preferences in Mixed Markets” Journal of Public Administration Research and Theory.
+> # ENTER CITATION HERE
 -----
 -----
 ## Replication
 For our analysis, we used Sawtooth’s proprietary, built-in Analysis and Simulator tools to conduct initial analyses. Supplemental analyses and graphics were generated using Excel and R. Sawtooth provides all data in Microsoft Excel files.  
 
-There are four types of analysis conducted in our paper. The following describes the rationale for the analysis, the data used, the procedures followed, and the code used.
+There are three types of analysis conducted in our paper. The following describes the rationale for the analysis, the data used, the procedures followed, and the code used.
 
 ----
-1. We estimated the part-worth utilities, or the influence of individual attribute levels on the decision. The part-worths are zero-centered for each attribute such that the average part-worth score for each attribute is set to 0. These part-worth scores serve as the basis for the analysis of conjoint analysis results. *Table 4* and *Figures 1, 2*, and *3* can be replicated using the following:
+1. We estimated the part-worth utilities, or the influence of individual attribute levels on the decision. The part-worths are zero-centered for each attribute such that the average part-worth score for each attribute is set to 0. These part-worth scores serve as the basis for the analysis of conjoint analysis results. *Table 3* and *Figures 1, 2*, and *3* can be replicated using the following:
 
      
      A. *Data:*
-     1. The data used for the Health Test Scenario portion of *Table 4* can be found in *Health4sector_PartWorths.xlsx*
-     2. The data used for the Museum Ticket Scenario portion of *Table 4* can be found in *Museum4sector_PartWorths.xlsx*
-     3. The data used for *Figure 1* can be found in *OrgType_Simulator.xlsx*
-     4. The data used for *Figure 2* can be found in *Price_Simulator.xlsx*
-     5. The data used for *Figure 3* can be found in *Review_Simulator.xlsx*
-     6. The data used to create the *OrgType_Simulator.xlsx*, *Price_Simulator.xlsx*, and *Review_Simulator.xlsx* was generated using *Preference_Calculator*.
+     1. The data used for the Meal Scenario portion of *Table 3* can be found in *Meal_Scenario_PartWorths.xlsx*
+     2. The data used for the Shirt Scenario portion of *Table 3* can be found in *Shirt_Scenario_PartWorths.xlsx*
+     3. The data used for the Health Test Scenario portion of *Table 3* can be found in *Health_Scenario_PartWorths.xlsx*
+     4. #NEED TO UPDATE DATA AND PROCEDURE FOR FIGURES !_#
+     5. The data used for *Figure 1* can be found in *OrgType_Simulator.xlsx*
+     6. The data used for *Figure 2* can be found in *Price_Simulator.xlsx*
+     7. The data used for *Figure 3* can be found in *Review_Simulator.xlsx*
+     8. The data used to create the *OrgType_Simulator.xlsx*, *Price_Simulator.xlsx*, and *Review_Simulator.xlsx* was generated using *Preference_Calculator*.
 
 
      B. *Procedure and Code for Table 4:*
-     1. The mean partworth utility for each level of each attribute was calculated in Excel using the =AVERAGE() command. For example, the mean partworth utility for the nonprofit organizational type is =AVERAGE(B2:B20001) since cells B2 through B20001 contain the partworths for the nonprofit organizayional type for the 20,000 iterations.
-     2. The standard deviation for each level of each attribute was calculated in Excel using the =STDEV.S() command. For example, the standard deviation for the partworth utility for the nonprofit organizational type is =STDEV.S(B2:B20001). The standard deviation was not reported in *Table 4*. It was calculated in order to determine the lower and upper bounds of the 95% credible interval
+     1. The mean partworth utility for each level of each attribute was calculated in Excel using the =AVERAGE() command. For example, the mean partworth utility for the nonprofit organizational type in the meal scenario is =AVERAGE(B2:B20001) since cells B2 through B20001 contain the partworths for the nonprofit organizational type for the 20,000 iterations.
+     2. The standard deviation for each level of each attribute was calculated in Excel using the =STDEV.S() command. For example, the standard deviation for the partworth utility for the nonprofit organizational type in the meal scenario is =STDEV.S(B2:B20001). The standard deviation was not reported in *Table 3*. It was calculated in order to determine the lower and upper bounds of the 95% credible interval
      3. The lower and upper bound of the 95% Credible Interval was calculated using the =NORM.INV command
         1. For the lower bound: =NORM.INV(0.025,mean,standard deviation)
         2. For the upper bound: =NORM.INV(0.975,mean,standard deviation)
