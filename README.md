@@ -5,8 +5,9 @@
 
 
 ## Abstract
-<table><tr><td>  
-\textcolor{red}{Enter Abstract here. }
+<table><tr><td> 
+     ```diff
+! Enter Abstract here.
 </td></tr></table>
 
 -----
