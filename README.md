@@ -66,9 +66,10 @@ There are three types of analysis conducted in our paper. The following describe
 
 
      A.*Data:*
-     1. The data used for *Figure 4* can be found in *Health_Long_Results*
-     2. The data used for *Figure 5* can be found in *Museum_Long_Results.xlsx*
-     3. The data used to create the *Health_Long_Results* and the *Museum_Long_Results.xlsx* were generated using the *Sawtooth_Health_Simulator.xlsx* and the *Sawtooth_Museum_Simulator.xlsx*, respectively.     
+     1. The data used for *Figure 1* can be found in *Health_Long_Results*
+     2. The data used for *Figure 2* can be found in *Museum_Long_Results.xlsx*
+     3. The data used for *Figure 3* can be found in *Museum_Long_Results.xlsx*
+     4. The data used to create the *Health_Long_Results* and the *Museum_Long_Results.xlsx* were generated using the *Sawtooth_Health_Simulator.xlsx* and the *Sawtooth_Museum_Simulator.xlsx*, respectively.     
  
   
      B. *Procedure and Code:*
