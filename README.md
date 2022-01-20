@@ -62,31 +62,19 @@ There are three types of analysis conducted in our paper. The following describe
 -----
 
 -----
-3. We use the part-worth utilities to estimate the probability that a subject will make a purchasing decision at specified attribute levels. Because part-worth scores are zero-centered by attribute, part-worth scores for one attribute cannot be compared to the scores of the other attributes because of the difference in scaling. Therefore, we transform part-worth utilities into preference shares using a market simulator (Orme 2014). Market simulator results are easier to interpret because they are on a zero to one hundred scale, and have ratio scale properties (Orme 2014). We presented these results graphically, with each plotted point representing the probability that subjects would purchase the product at the indicated levels of the attributes. *Figure 4* and *Figure 5* can be replicated using the following:   
+3. We use the part-worth utilities to estimate the probability that a subject will make a purchasing decision at specified attribute levels. Because part-worth scores are zero-centered by attribute, part-worth scores for one attribute cannot be compared to the scores of the other attributes because of the difference in scaling. Therefore, we transform part-worth utilities into preference shares using a market simulator (Orme 2014). Market simulator results are easier to interpret because they are on a zero to one hundred scale, and have ratio scale properties (Orme 2014). We presented these results graphically, with each plotted point representing the probability that subjects would purchase the product at the indicated levels of the attributes. *Figure 1*, *Figure 2*, and *Figure 3* can be replicated using the following:   
 
 
      A.*Data:*
-     1. The data used for *Figure 1* can be found in *Health_Long_Results*
-     2. The data used for *Figure 2* can be found in *Museum_Long_Results.xlsx*
-     3. The data used for *Figure 3* can be found in *Museum_Long_Results.xlsx*
-     4. The data used to create the *Health_Long_Results* and the *Museum_Long_Results.xlsx* were generated using the *Sawtooth_Health_Simulator.xlsx* and the *Sawtooth_Museum_Simulator.xlsx*, respectively.     
+     1. The data used for *Figure 1* can be found in *Meal_Long_Results.xlsx*
+     2. The data used for *Figure 2* can be found in *Shirt_Long_Results.xlsx*
+     3. The data used for *Figure 3* can be found in *Health_Long_Results.xlsx*
+     4. The data used to create the *Meal_Long_Results*, *Shirt_Long_Results*, and the *Health_Long_Results.xlsx* were generated using the *Sawtooth_Meal_Simulator.xlsx*, *Sawtooth_Shirt_Simulator.xlsx*, and *Sawtooth_Health_Simulator.xlsx*, respectively.     
  
   
      B. *Procedure and Code:*
-      1. The code for creating *Figure 4* can be found in *Figure4.R*
-      2. The code for creating *Figure 5* can be found in *Figure5.R*
+      1. The code for creating *Figure 1* can be found in *Figure1.R*
+      2. The code for creating *Figure 2* can be found in *Figure2.R*
+      3. The code for creating *Figure 2* can be found in *Figure3.R*
 -----  
 
------
-4. We regressed the cost levels on the average utilities for each cost level to calculate the willingness to pay for each attribute level in order to create a linear interpolation of a continuous covariate.
-
-
-     A. *Data:*
-     1. The data used to calculate the marginal willingess to pay (MWTP) for the Health Test Scenario can be found on the summary tab of *CBChealth4sector-HB.xlsx*
-     2. The data used to calculate the marginal willingess to pay (MWTP) for the Museum Ticket Scenario can be found on the summary tab of *CBCmuseum4sector-HB.xlsx*  
-     
-     
-     B. *Procedure and Code:*
-     1. The average ultility was regressed on the cost attribute levels using =LINEST to get the slope coefficient. For example, the formula =@LINEST(B12:B17,A12:A17) was used in Cell B35 of the *CBChealth4sector-HB.xlsx* to calculate thge slope coefficient for the Health Test Scenario
-     2. The MWTP was calculated by dividing the difference of the average utlity for the base level minus the average utility for the level of interest by the slope coefficient. For example, the formula to calculate the MTWP for Nonprofitness in the Health Test Scenario is =(B11-B8)/B35, where cell B11 contains the average ultility for an organization from an unknown sector (the base level), B8 is the average utility for a nonprofit organization, and B35 is the slope coefficient calculated in Step 1. 
------
