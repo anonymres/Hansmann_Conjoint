@@ -1,22 +1,22 @@
 # Hansmann’s Contract Failure Theory: Correct but Irrelevant? 
-#### **Eva Witesman**, Romney Institute of Public Service and Ethics, Brigham Young University
+<!---#### **Eva Witesman**, Romney Institute of Public Service and Ethics, Brigham Young University
 #### **Curtis Child**, Department of Sociology, Brigham Young University
-#### **Chris Silvia**, Romney Institute of Public Service and Ethics, Brigham Young University
+#### **Chris Silvia**, Romney Institute of Public Service and Ethics, Brigham Young University--->
 
 
 ## Abstract
      
 <table><tr><td> 
 
-# ENTER ABSTRACT HERE
+In his theory on the role of nonprofit enterprise, Hansmann (1980) makes an argument for the government regulation of nonprofit enterprise on the basis of what he calls “contract failure.” In this paper, we assess whether nonprofit status serves as a valuable indicator of trust in low information environments as Hansmann posited. Using choice-based conjoint analysis, we find that in the absence of additional information (such as consumer ratings and third-party certifications) nonprofit status serves as an important value signal to consumers. Under most low-information circumstances, subjects prefer goods and services provided by nonprofits to those offered by government or business providers. However, in the presence of consumer ratings and third-party certifications, nonprofit status becomes much less relevant. Given that Hansmann was writing before the ubiquitous availability of online rating and certification information, we find that his theory was prescient, but that as information becomes more abundant and organizational forms continue to converge, it is likely that contract failure thesis will become increasingly obsolete, undermining Hansmann’s argument for government regulation of the nonprofit form.  
  
 </td></tr></table>
 
 
 -----
 
-This repository contains the data and code for:
-> # ENTER CITATION HERE
+<!---This repository contains the data and code for:
+> # ENTER CITATION HERE --->
 -----
 -----
 ## Replication
