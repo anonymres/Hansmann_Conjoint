@@ -28,7 +28,7 @@ There are three types of analysis conducted in our paper. The following describe
 1. We estimated the part-worth utilities, or the influence of individual attribute levels on the decision. The part-worths are zero-centered for each attribute such that the average part-worth score for each attribute is set to 0. These part-worth scores serve as the basis for the analysis of conjoint analysis results. *Table 3* can be replicated using the following:
 
      
-     A. *Datafor Table 3:*
+     A. *Data for Table 3:*
      1. The data used for the Meal Scenario portion of *Table 3* can be found in *Meal_Scenario_PartWorths.xlsx*
      2. The data used for the Shirt Scenario portion of *Table 3* can be found in *Shirt_Scenario_PartWorths.xlsx*
      3. The data used for the Health Test Scenario portion of *Table 3* can be found in *Health_Scenario_PartWorths.xlsx*
