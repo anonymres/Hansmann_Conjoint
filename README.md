@@ -1,4 +1,4 @@
-# Hansmann’s Contract Failure Theory: Correct but Irrelevant? 
+# The Value of Being Nonprofit: A New Look at Hansmann’s Contract Failure Theory
 <!---#### **Eva Witesman**, Romney Institute of Public Service and Ethics, Brigham Young University
 #### **Curtis Child**, Department of Sociology, Brigham Young University
 #### **Chris Silvia**, Romney Institute of Public Service and Ethics, Brigham Young University--->
@@ -8,7 +8,7 @@
      
 <table><tr><td> 
 
-In his theory on the role of nonprofit enterprise, Hansmann (1980) makes an argument for the government regulation of nonprofit enterprise on the basis of what he calls “contract failure.” In this paper, we assess whether nonprofit status serves as a valuable indicator of trust in low information environments as Hansmann posited. Using choice-based conjoint analysis, we find that in the absence of additional information (such as consumer ratings and third-party certifications) nonprofit status serves as an important value signal to consumers. Under most low-information circumstances, subjects prefer goods and services provided by nonprofits to those offered by government or business providers. However, in the presence of consumer ratings and third-party certifications, nonprofit status becomes much less relevant. Given that Hansmann was writing before the ubiquitous availability of online rating and certification information, we find that his theory was prescient, but that as information becomes more abundant and organizational forms continue to converge, it is likely that contract failure thesis will become increasingly obsolete, undermining Hansmann’s argument for government regulation of the nonprofit form.  
+In his theory about the role of nonprofit enterprise, Henry Hansmann suggested that nonprofit status provides important information to consumers in low information environments. In this paper, we assess whether consumers use nonprofit status to form purchasing preferences as Hansmann predicted. Using choice-based conjoint analysis, we find that under different types of low-information circumstances, study participants prefer goods and services provided by nonprofits to those offered by businesses. In the absence of additional information (such as customer ratings and third-party certifications), nonprofit status serves as an important value signal to consumers. In the presence of additional information, nonprofit status is still relevant in some cases, although it becomes less so. The findings suggest that additional forms of information do not necessarily displace the value to consumers of information about organization type. We reflect on these findings in light of Hansmann’s thesis.   
  
 </td></tr></table>
 
