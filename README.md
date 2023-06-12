@@ -75,6 +75,6 @@ There are three types of analysis conducted in our paper. The following describe
      B. *Procedure and Code:*
       1. The code for creating *Figure 1* can be found in *Figure1.R*
       2. The code for creating *Figure 2* can be found in *Figure2.R*
-      3. The code for creating *Figure 2* can be found in *Figure3.R*
+      3. The code for creating *Figure 3* can be found in *Figure3.R*
 -----  
 
