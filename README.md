@@ -66,10 +66,10 @@ There are three types of analysis conducted in our paper. The following describe
 
 
      A.*Data:*
-     1. The data used for *Figure 1* can be found in *Meal_Long_Results.xlsx*
-     2. The data used for *Figure 2* can be found in *Shirt_Long_Results.xlsx*
-     3. The data used for *Figure 3* can be found in *Health_Long_Results.xlsx*
-     4. The data used to create the *Meal_Long_Results*, *Shirt_Long_Results*, and the *Health_Long_Results.xlsx* were generated using the *Sawtooth_Meal_Simulator.xlsx*, *Sawtooth_Shirt_Simulator.xlsx*, and *Sawtooth_Health_Simulator.xlsx*, respectively.     
+     1. The data used for *Figure 1* can be found in *Partworth_Meal_Chart.csv*
+     2. The data used for *Figure 2* can be found in *Partworth_Shirt_Chart.csv*
+     3. The data used for *Figure 3* can be found in *Partworth_Health_Chart.csv*
+     4. *Partworth_Meal_Chart.csv*, *Partworth_Shirt_Chart.csv*, and *Partworth_Health_Chart.csv* were generated as standard outpiut files by Sawtooth.     
  
   
      B. *Procedure and Code:*
@@ -86,7 +86,7 @@ There are three types of analysis conducted in our paper. The following describe
      1. The data used for *Figure 4* can be found in *Meal_Long_Results.xlsx*
      2. The data used for *Figure 5* can be found in *Shirt_Long_Results.xlsx*
      3. The data used for *Figure 6* can be found in *Health_Long_Results.xlsx*
-     4. The data used to create the *Meal_Long_Results*, *Shirt_Long_Results*, and the *Health_Long_Results.xlsx* were generated using the *Sawtooth_Meal_Simulator.xlsx*, *Sawtooth_Shirt_Simulator.xlsx*, and *Sawtooth_Health_Simulator.xlsx*, respectively.     
+     4. The data used to create *Meal_Long_Results*, *Shirt_Long_Results*, and the *Health_Long_Results.xlsx* were generated using the *Sawtooth_Meal_Simulator.xlsx*, *Sawtooth_Shirt_Simulator.xlsx*, and *Sawtooth_Health_Simulator.xlsx*, respectively.     
  
   
      B. *Procedure and Code:*
