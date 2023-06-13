@@ -39,4 +39,4 @@ ggplot(Partworth_Meal_Chart,
   xlab("Mean Part-Worth Scores")+
   ylab("Attribute Levels")+
   scale_x_continuous(breaks = seq(-3,3, by=1))+
-  facet_grid(Attribute ~., scales = 'free')
+  facet_grid(Attribute ~., scales = 'free', space ='free_y')
