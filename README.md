@@ -78,3 +78,20 @@ There are three types of analysis conducted in our paper. The following describe
       3. The code for creating *Figure 3* can be found in *Figure3.R*
 -----  
 
+-----
+4. We use the part-worth utilities to estimate the probability that a subject will make a purchasing decision at specified attribute levels. Because part-worth scores are zero-centered by attribute, part-worth scores for one attribute cannot be compared to the scores of the other attributes because of the difference in scaling. Therefore, we transform part-worth utilities into preference shares using a market simulator (Orme 2014). Market simulator results are easier to interpret because they are on a zero to one hundred scale, and have ratio scale properties (Orme 2014). We presented these results graphically, with each plotted point representing the probability that subjects would purchase the product at the indicated levels of the attributes. *Figure 1*, *Figure 2*, and *Figure 3* can be replicated using the following:   
+
+
+     A.*Data:*
+     1. The data used for *Figure 4* can be found in *Meal_Long_Results.xlsx*
+     2. The data used for *Figure 5* can be found in *Shirt_Long_Results.xlsx*
+     3. The data used for *Figure 6* can be found in *Health_Long_Results.xlsx*
+     4. The data used to create the *Meal_Long_Results*, *Shirt_Long_Results*, and the *Health_Long_Results.xlsx* were generated using the *Sawtooth_Meal_Simulator.xlsx*, *Sawtooth_Shirt_Simulator.xlsx*, and *Sawtooth_Health_Simulator.xlsx*, respectively.     
+ 
+  
+     B. *Procedure and Code:*
+      1. The code for creating *Figure 1* can be found in *Figure4.R*
+      2. The code for creating *Figure 2* can be found in *Figure4.R*
+      3. The code for creating *Figure 3* can be found in *Figure6.R*
+-----  
+
