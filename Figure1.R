@@ -2,34 +2,41 @@
 getwd()
 setwd()
 
-require(dplyr)
+require(tidyverse)
 require(ggplot2)
-require(tidyr)
-require(scales)
-require(readxl)
+require(dplyr)
+require(forcats)
 
-PurchProbMeal <- read_excel("Meal_Long_Results.xlsx")
+#Creation of chart showing average part-worths with 95% credible intervals for the Meal Scenario
+#data("Partworth_Chart")
+Partworth_Meal_Chart <- read.csv("Partworth_Meal_Chart.csv", header=TRUE)
 
 
-meal <- PurchProbMeal %>% 
-  filter(`cost ($)` >= 10)
+Meal <- Partworth_Meal_Chart
+# Convert design columns to factors (for labeling plots)
+Partworth_Meal_Chart$Attribute = factor(Partworth_Meal_Chart$Attribute)
+Partworth_Meal_Chart$Level = factor(Partworth_Meal_Chart$Level)
 
-# Dot Plot chart ci bars
-D <- ggplot(meal, aes(y = probability, x = `cost ($)`, 
-                     color = Sector, shape = Sector)) + 
-  geom_point(position = position_dodge(width = 0.5)) +
-  geom_errorbar(aes(ymin=probability-ci, ymax=probability+ci), width=.1, color="black", position = position_dodge(width = 0.5)) +
-  scale_shape_manual(values=c(19, 4, 15, 17))+
-  scale_color_manual(values=c('coral1', "purple4", "green3", "cornflowerblue"))+
-  scale_x_continuous(breaks = 10:15) +
-  labs(color = "Sector", shape = "Sector", x = "Cost", y = "Probability", 
-       title = "Figure 1: Probability of purchasing a meal by customer rating, cost, certification, and sector",
-       caption="Each bar is constructed using a 95% confidence interval of the mean") +
-  facet_wrap(vars(rating)) +
-  theme_bw() +
-  facet_grid(certification ~ rating) +
-  theme(panel.grid.minor = element_blank(),
-        legend.position = "bottom")
 
-D + xlab("Cost in Dollars")
+Partworth_Meal_Chart$Level <- fct_inorder(f = c(
+  'Nonprofit', 'For Profit', 'Unknown',
+  '$10', '$11', '$12', '$13', '$14', '$15',
+  'One Star', 'Two Stars', 'Three Stars', 'Four Stars',
+  'Five Stars', 'No Stars', 'Certification', 'No Certification'), ordered = TRUE)
 
+Partworth_Meal_Chart$Level <- fct_rev(Partworth_Meal_Chart$Level)
+
+
+ggplot(Partworth_Meal_Chart,
+       aes(x=Mean, 
+           y=Level)) +
+  #geom_errorbar(aes(xmin = LB,
+  #                  xmax = UB))+
+  geom_pointrange(aes(xmin = LB,
+                      xmax = UB))+
+  geom_vline(xintercept = 0) +
+  geom_point() +
+  xlab("Mean Part-Worth Scores")+
+  ylab("Attribute Levels")+
+  scale_x_continuous(breaks = seq(-3,3, by=1))+
+  facet_grid(Attribute ~., scales = 'free')
